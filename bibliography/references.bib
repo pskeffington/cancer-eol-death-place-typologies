@@ -1,11 +1,68 @@
-% Starter bibliography for cancer end-of-life place-of-death typologies project.
-% Replace placeholders with verified dataset, health-services, hospice/access, rurality, socioeconomic, and methods references.
+% Bibliography for cancer end-of-life place-of-death typologies project.
+% Dataset and inference choices must be reconciled with docs/DATASET_AND_VARIABLE_PLAN.md.
 
-@comment{Add mortality/place-of-death dataset, end-of-life care, hospice/access, healthcare supply, rurality, socioeconomic, ecological methods, typology, and software references here.}
-
-@misc{cancer_eol_bibliography_placeholder,
-  title        = {Cancer End-of-Life Typologies Bibliography Placeholder},
-  author       = {{Project bibliography manifest}},
+@misc{cdc_wonder,
+  author       = {{Centers for Disease Control and Prevention}},
+  title        = {CDC WONDER},
   year         = {2026},
-  note         = {Placeholder only. Replace with verified dataset and literature references after design decisions are made.}
+  howpublished = {Public health data query system},
+  url          = {https://wonder.cdc.gov/},
+  note         = {Candidate mortality and place-of-death data source; cite specific query, dataset, vintage, and access date after selection.}
+}
+
+@misc{nchs_mortality_data,
+  author       = {{National Center for Health Statistics}},
+  title        = {Mortality Data on CDC WONDER},
+  year         = {2026},
+  howpublished = {Vital statistics mortality data},
+  url          = {https://wonder.cdc.gov/mortSQL.html},
+  note         = {Use with specific dataset, years, geography, and query parameters recorded.}
+}
+
+@misc{dartmouth_atlas,
+  author       = {{The Dartmouth Atlas of Health Care}},
+  title        = {The Dartmouth Atlas of Health Care},
+  year         = {2026},
+  howpublished = {Health-services variation data and reports},
+  url          = {https://www.dartmouthatlas.org/},
+  note         = {Candidate source for end-of-life care intensity context; cite specific measure and data release after selection.}
+}
+
+@misc{ahrf,
+  author       = {{Health Resources and Services Administration}},
+  title        = {Area Health Resources Files},
+  year         = {2026},
+  howpublished = {County-level health resources data},
+  url          = {https://data.hrsa.gov/topics/health-workforce/ahrf},
+  note         = {Candidate healthcare-supply source; record data vintage and variables used.}
+}
+
+@misc{usda_rucc,
+  author       = {{U.S. Department of Agriculture Economic Research Service}},
+  title        = {Rural-Urban Continuum Codes},
+  year         = {2026},
+  howpublished = {County classification data},
+  url          = {https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/},
+  note         = {Candidate rurality classification; record code vintage.}
+}
+
+@article{barnato_2007_end_of_life_variation,
+  author  = {Barnato, Amber E. and Chang, Chung-Chou H. and Farrell, Max H. and Lave, Judith R. and Roberts, Mark S. and Angus, Derek C.},
+  title   = {Is Survival Better at Hospitals With Higher Intensive Care Unit Admission Rates for Elderly Patients With Pneumonia?},
+  journal = {American Journal of Respiratory and Critical Care Medicine},
+  year    = {2007},
+  volume  = {175},
+  number  = {6},
+  pages   = {548--553},
+  doi     = {10.1164/rccm.200602-282OC},
+  note    = {Health-services variation and intensive-care-use reference; verify relevance before manuscript use.}
+}
+
+@article{goodman_2013_end_of_life,
+  author  = {Goodman, David C. and Esty, Ashley R. and Fisher, Elliott S. and Chang, Chiang-Hua},
+  title   = {Trends and Variation in End-of-Life Care for Medicare Beneficiaries with Severe Chronic Illness},
+  journal = {The Dartmouth Institute for Health Policy and Clinical Practice},
+  year    = {2013},
+  url     = {https://www.dartmouthatlas.org/},
+  note    = {Report-style reference; verify exact report title, authors, and URL before formal citation.}
 }
