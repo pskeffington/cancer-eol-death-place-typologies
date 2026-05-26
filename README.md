@@ -4,7 +4,7 @@ Open-data health-services research project classifying U.S. county-level cancer 
 
 **Maintainer:** Paul Skeffington, MS, MPH  
 **Repository status:** active manuscript scaffold; no analysis results should be treated as final until source extraction, citation validation, and reproducibility checks are complete.  
-**Last documentation refresh:** 2026-05-25
+**Last documentation refresh:** 2026-05-26
 
 ## Working manuscript title
 
@@ -15,6 +15,10 @@ Open-data health-services research project classifying U.S. county-level cancer 
 This repository supports a reproducible, open-data study aligned with end-of-life care variation, healthcare efficiency, cancer end-of-life quality, and hospital death typology research.
 
 The primary empirical unit is the county-year. The main cohort is decedents age 65+ whose underlying cause of death is malignant neoplasm, ICD-10 C00-C97.
+
+## Current update — 2026-05-26
+
+The repository remains in scaffold and source-validation mode. The next documentation priority is to convert the planned source registry, county-year construction protocol, and place-of-death variable map into auditable files before any tables, figures, or manuscript claims are treated as evidence.
 
 ## Primary data source
 
@@ -75,4 +79,4 @@ tables/         Publication-ready table fragments
 
 ## Current status
 
-Documentation refreshed on 2026-05-25. The repository remains in scaffold and source-validation mode.
+Documentation refreshed on 2026-05-26. The repository remains in scaffold and source-validation mode with the immediate focus on source manifests, variable mapping, and reproducibility guardrails.
