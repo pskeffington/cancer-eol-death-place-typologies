@@ -1,5 +1,11 @@
 # Cancer End-of-Life Death-Place Typologies
 
+## Portfolio evidence review — 2026-09-17
+
+**Reviewed carry-forward.** The source-validation log records historical primary-source design verification, with supplementary sources still pending. That dated log is not fresh source verification. County-year extraction, suppression/geography checks, and a reproducible typology result packet remain open.
+
+Maturity and valuation ranges are unchanged. [Current review and next evidence gates](docs/valuation/2026-09-17_review.md). Dates and result claims elsewhere retain their original scope.
+
 Open-data health-services research project classifying U.S. county-level cancer end-of-life death-place typologies and examining associations with hospice access, healthcare supply, rurality, socioeconomic context, and regional care intensity.
 
 **Maintainer:** Paul Skeffington, MS, MPH  

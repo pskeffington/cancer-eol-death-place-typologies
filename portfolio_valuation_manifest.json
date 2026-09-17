@@ -1,21 +1,44 @@
 {
-  "schema_version": "portfolio-valuation-manifest/v1",
-  "repository": "pskeffington/cancer-eol-death-place-typologies",
-  "portfolio_valuator": "pskeffington/Portfolio",
-  "valuation_status": "aligned_internal_estimate",
+  "claim_boundary": "Open-data health-services research only; no patient-level finding, provider ranking, care recommendation, causal effect, payer guidance, policy mandate, or institutional endorsement claim.",
+  "collateral_treatment": "Treat as pre-analysis research and methods IP. Apply source-extraction, suppression, reproducibility, publication, transferability, key-person, and adoption discounts; no care-delivery or policy-product collateral value is asserted. Reviewed on 2026-09-17 against the recorded main-branch evidence; current and forward ranges, maturity, and evidence grade are carried forward without uplift. See docs/valuation/2026-09-17_review.md for scope and unresolved evidence gates.",
+  "current_value_range_usd": {
+    "high": 90000,
+    "low": 30000
+  },
+  "evidence_grade": "B-",
+  "evidence_paths": [
+    "README.md",
+    "portfolio_valuation_manifest.json",
+    "docs/source_validation_log.md",
+    "docs/valuation/2026-09-17_review.md"
+  ],
+  "forward_value_range_usd": {
+    "high": 300000,
+    "low": 90000
+  },
+  "integration_role": "health-services research component within the biomedical/translational portfolio",
+  "last_aligned_on": "2026-09-17",
   "market_lane": "health-services research / cancer end-of-life typology analysis",
   "maturity_stage": "scaffold",
-  "evidence_grade": "B-",
+  "missing_financial_inputs": [
+    "revenue",
+    "contracts",
+    "grants",
+    "external validation",
+    "independent appraisal"
+  ],
+  "next_value_unlocks": [
+    "freeze source manifests",
+    "freeze county-year analytic specification",
+    "validate place-of-death and suppression logic",
+    "produce reproducible typology tables and diagnostics",
+    "complete independent methodological review"
+  ],
+  "portfolio_valuator": "pskeffington/Portfolio",
   "product_surface": "open-data manuscript and analytic-design scaffold",
-  "integration_role": "health-services research component within the biomedical/translational portfolio",
   "public_safety_status": "clean",
+  "repository": "pskeffington/cancer-eol-death-place-typologies",
   "risk_level": "medium",
-  "current_value_range_usd": {"low": 30000, "high": 90000},
-  "forward_value_range_usd": {"low": 90000, "high": 300000},
-  "collateral_treatment": "Treat as pre-analysis research and methods IP. Apply source-extraction, suppression, reproducibility, publication, transferability, key-person, and adoption discounts; no care-delivery or policy-product collateral value is asserted.",
-  "evidence_paths": ["README.md", "portfolio_valuation_manifest.json"],
-  "next_value_unlocks": ["freeze source manifests", "freeze county-year analytic specification", "validate place-of-death and suppression logic", "produce reproducible typology tables and diagnostics", "complete independent methodological review"],
-  "missing_financial_inputs": ["revenue", "contracts", "grants", "external validation", "independent appraisal"],
-  "claim_boundary": "Open-data health-services research only; no patient-level finding, provider ranking, care recommendation, causal effect, payer guidance, policy mandate, or institutional endorsement claim.",
-  "last_aligned_on": "2026-08-17"
+  "schema_version": "portfolio-valuation-manifest/v1",
+  "valuation_status": "reviewed_carry_forward"
 }
